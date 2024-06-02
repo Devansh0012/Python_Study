@@ -1,0 +1,39 @@
+>>> tea_types = ("Black", "Green", "Oolong")
+>>> tea_types
+('Black', 'Green', 'Oolong')
+>>> tea_types[0]
+'Black'
+>>> tea_types[1:]
+('Green', 'Oolong')
+>>> tea_types[0] = "Lemon"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> len(tea_types_
+... 
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'tea_types_' is not defined. Did you mean: 'tea_types'?
+>>> len(tea_types)
+3
+>>> more_tea = ("Herbal", "Lemon")
+>>> all_tea = more_tea + tea_types
+>>> all_tea
+('Herbal', 'Lemon', 'Black', 'Green', 'Oolong')
+>>> if "Green" in all_tea:
+...     print("I have green tea")
+... 
+I have green tea
+>>> tea_types
+('Black', 'Green', 'Oolong')
+>>> (black, green, Oolong) = tea_types
+>>> black
+'Black'
+>>> green
+'Green'
+>>> type(tea_types)
+<class 'tuple'>
+>>> type(black)     
+<class 'str'>
+>>>
