@@ -10,3 +10,7 @@ print(my_car.model)  # Corolla
 my_new_car = Car("Tata", "Safari")
 print(my_new_car.brand)  # Tata
 print(my_new_car.model)  # Safari
+
+def display_full_name(self):
+    print(f"{self.brand} {self.model}")
+    
